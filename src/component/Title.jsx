@@ -1,8 +1,9 @@
 import react from 'react'
+import './Title.css'
 
 const Title = ({title}) => {
     return(
-        <div>Contagem Regressiva</div>
+        <div className='title'>{title}</div>
     )
 }
 

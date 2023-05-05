@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className='App' style={{backgroundImage: 'url({NewYear})'}}>
+    <div className='App' style={{backgroundImage: `url(${NewYear})`}}>
       <div className='container'>
         <Title title = "contagem regressiva"/>
         <div className='contagem-container'>
