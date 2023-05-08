@@ -22,3 +22,16 @@
     height: 200px;
     gap: 2rem;
 }
+
+@media screen and (max-width: 767px){
+    .container {
+        margin: 10px 10px;
+    }
+    
+    .contagem-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
